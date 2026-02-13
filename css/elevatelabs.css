@@ -5221,7 +5221,11 @@ figure {
 
 .integration-marquee-item-image {
   z-index: 1;
-  width: 100%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-12%, 12%);
+  top: 20px;
+  left: 28px;
   position: relative;
 }
 

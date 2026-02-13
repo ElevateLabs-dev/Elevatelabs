@@ -1,5 +1,5 @@
-HTTrack3.49-2+htsswf+htsjava launched on Wed, 11 Feb 2026 10:56:08 at https://quantumlabtemplate.webflow.iohome-v1.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-home-v1.html
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 11 Feb 2026 10:56:08 at https://quantumlabtemplate.webflow.io/homepage.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+/homepage.html
 (winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://quantumlabtemplate.webflow.io/home-pages/home-v1 -O1 "C:\Users\PC\Desktop\website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 
