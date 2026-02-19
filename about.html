@@ -29,14 +29,19 @@
     <meta content="summary_large_image" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Elevatelabs" name="website">
-    <link
-        href="/css/elevatelabs.css"
-        rel="stylesheet" type="text/css">
+    <link href="/css/elevatelabs.css" rel="stylesheet" type="text/css">
     <style>
         html.w-mod-js:not(.w-mod-ix3) :is(.about-text) {
             visibility: hidden !important;
         }
     </style>
+    <Style>
+        /* Hide badge */
+        .w-webflow-badge,
+        a[href*="webflow.com"][href*="Made-in-Webflow"] {
+            display: none !important;
+        }
+    </Style>
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -46,173 +51,18 @@
         type="text/javascript">WebFont.load({ google: { families: ["Inter:regular,500,600", "Inter Tight:regular,500,600"] } });</script>
     <script
         type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
-    <link
-        href="img/Logo Icon Dark.png"
-        rel="shortcut icon" type="image/x-icon">
-    <link
-        href="img/Logo Icon Dark.png"
-        rel="apple-touch-icon">
+    <link href="img/Logo Icon Dark.png" rel="shortcut icon" type="image/x-icon">
+    <link href="img/Logo Icon Dark.png" rel="apple-touch-icon">
 </head>
 
 <body>
     <div class="page-wrapper">
-        
+
         <!-- HEADER -->
-    <div data-animation="default" class="header-wrapper w-nav" data-easing2="ease" data-easing="ease"
-      data-collapse="medium" data-w-id="7a7443a6-35f8-b340-e299-05abf0e89308" role="banner" data-duration="300"
-      data-wf--header-v1--variant="base" data-doc-height="1">
-      <div class="header-content">
-        <div class="header-logo-wrapper">
-          <div class="show-light-mode">
-
-            <a data-wf--logo-icon-link--variant="base"
-              data-w-id="87dfc950-060b-8c99-0112-a1812f935a28" href="index.html" aria-current="page"
-              class="logo-link w-inline-block w--current">
-              <img
-                src="img/Logo Icon Dark.png"
-                loading="lazy" width="54" height="54" alt="elevatelabs logo" class="logo-icon" />
-              </a>
-          </div>
-
-          <div class="show-dark-mode">
-            <a data-wf--logo-icon-link--variant="base"
-              data-w-id="87dfc950-060b-8c99-0112-a1812f935a28" href="index.html" aria-current="page"
-              class="logo-link w-inline-block w--current">
-              <img
-                src="img/Logo Icon White.png"
-                loading="lazy" width="54" height="54" alt="elevatelabs logo" class="logo-icon" />
-              </a>
-          </div>
-
-        </div>
-        <div class="header-right-side">
-          <nav role="navigation" class="nav-menu w-nav-menu">
-            <ul role="list" class="list-nav-menu w-list-unstyled">
-
-              <li class="link-nav-item sibling-blur-item">
-                <a data-w-id="61396b27-bbe7-3a60-d332-e4da41b420e2"
-                  href="index.html" aria-current="page" class="link w-inline-block w--current">
-                  <div class="link-icon-wrapper">
-                    <div class="link-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 17 17"
-                        fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square">
-                        </path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="link-text">Home</div>
-                </a>
-              </li>
-
-              <li class="link-nav-item sibling-blur-item"><a data-w-id="ca7ae8b4-822d-4c57-7c0f-1e81e77ec183"
-                  href="about.html" class="link w-inline-block">
-                  <div class="link-icon-wrapper">
-                    <div class="link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 17 17"
-                        fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                  </div>
-                  <div class="link-text">About</div>
-                </a></li>
-              <li class="link-nav-item sibling-blur-item"><a data-w-id="d68dfc82-2126-abb3-f232-3ceb101d5a7c"
-                  href="blog.html" class="link w-inline-block">
-                  <div class="link-icon-wrapper">
-                    <div class="link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 17 17"
-                        fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                  </div>
-                  <div class="link-text">Blog</div>
-                </a>
-              </li>
-
-              <li class="link-nav-item sibling-blur-item">
-                <a data-w-id="8c2de194-d091-ed7b-c3da-ff6cda050738"
-                  href="contact.html" class="link w-inline-block">
-                  <div class="link-icon-wrapper">
-                    <div class="link-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 17 17"
-                        fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square">
-                        </path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="link-text">Contact</div>
-                </a>
-              </li>
-
-              <li class="link-nav-item mbl-button"><a id="w-node-_99805214-dd54-e7f3-2549-05c0df1040fb-df1040fb"
-                  data-wf--primary-button--variant="base" data-w-id="99805214-dd54-e7f3-2549-05c0df1040fb"
-                  href="careers.html"
-                  class="primary-button w-inline-block">
-                  <div class="button-content">
-                    <div>Join our team</div>
-                    <div class="button-icon-wrapper primary"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg>
-                      <div class="button-icon-bg"></div>
-                      <div class="button-icon-bg-inside"></div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <div class="hidden-on-mobile-landscape">
-            <div class="show-light-mode">
-              <a id="w-node-_99805214-dd54-e7f3-2549-05c0df1040fb-df1040fb"
-                data-wf--primary-button--variant="base" data-w-id="99805214-dd54-e7f3-2549-05c0df1040fb"
-                href="careers.html"
-                class="primary-button w-inline-block">
-                <div class="button-content">
-                  <div>Join our team</div>
-                  <div class="button-icon-wrapper primary"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                      viewBox="0 0 17 17" fill="none" class="squared-icon">
-                      <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                        stroke-width="1.5" stroke-linecap="square"></path>
-                    </svg>
-                    <div class="button-icon-bg"></div>
-                    <div class="button-icon-bg-inside"></div>
-                  </div>
-                </div>
-              </a></div>
-            <div class="show-dark-mode"><a id="w-node-_83c75c2f-9f22-4125-8dc1-2c204e7d3592-4e7d3592"
-                data-wf--secondary-button--variant="base" data-w-id="83c75c2f-9f22-4125-8dc1-2c204e7d3592"
-                href="careers.html"
-                class="secondary-button w-inline-block">
-                <div class="button-content">
-                  <div>Join our team</div>
-                  <div class="button-icon-wrapper secondary"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                      viewBox="0 0 17 17" fill="none" class="squared-icon">
-                      <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                        stroke-width="1.5" stroke-linecap="square"></path>
-                    </svg>
-                    <div class="button-icon-bg bg-neutral-800"></div>
-                    <div class="button-icon-bg-inside bg-neutral-600"></div>
-                  </div>
-                </div>
-              </a></div>
-          </div>
-          <div class="hamburger-menu w-nav-button">
-            <div class="hamburger-menu-flex">
-              <div class="hamburger-menu-line top"></div>
-              <div class="hamburger-menu-line bottom"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        <my-header></my-header>
 
         <!-- ABOUT US -->
-         <!-- Fix: Confirm years of experience in home and about page.
+        <!-- Fix: Confirm years of experience in home and about page.
           Fix: animation -->
         <section class="section top overflow-hidden">
             <div class="w-layout-blockcontainer container-default w-container">
@@ -232,6 +82,7 @@
                         </p>
                     </div>
                 </div>
+
                 <div data-w-id="c9aa8bb0-8524-45b8-1337-b4d2c55b6f23" style="opacity: 1; filter: blur(0px);"
                     class="mg-top-regular overflow-hidden">
                     <div data-w-id="b1f259cc-bb63-0a12-b68d-6d8c20a83c77" data-is-ix2-target="1"
@@ -255,7 +106,6 @@
                                         </path>
                                     </g>
                                 </g>
-                                
                                 <g transform="matrix(1,0,0,1,0,0)" opacity="1" style="display: block;">
                                     <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                         <path fill="rgb(0,0,0)" fill-opacity="1"
@@ -5383,6 +5233,7 @@
                             </g>
                         </svg></div>
                 </div>
+
                 <div class="mg-top-regular">
                     <div class="w-layout-grid about-hero-stats-wrapper">
                         <div data-w-id="d651207f-5e62-7ad5-26ff-8f1f18b04695" style="opacity: 1; filter: blur(0px);">
@@ -5419,8 +5270,8 @@
                         </div>
                         <div data-w-id="f23f0a63-0eea-7057-9e20-4a5e2141195a" style="opacity: 1; filter: blur(0px);">
                             <div class="stat-wrapper center-mbl">
-                                <div class="stat-text"><span data-count="3"
-                                        class="count-up-number-animation">3</span>x</div>
+                                <div class="stat-text"><span data-count="3" class="count-up-number-animation">3</span>x
+                                </div>
                                 <div class="stat-arrow-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                                         viewBox="0 0 15 14" fill="none" class="stat-arrow">
                                         <path d="M7.40431 13.0625L7.4043 2" stroke="currentColor" stroke-width="1.5">
@@ -5430,7 +5281,7 @@
                                     </svg></div>
                             </div>
                             <div class="display-2">
-                                 Faster Time-to-Market
+                                Faster Time-to-Market
                             </div>
                         </div>
                         <div data-w-id="b7c967bb-e96e-8b72-b3b0-4b73512ef3ec" style="opacity: 1; filter: blur(0px);">
@@ -5652,8 +5503,7 @@
                                 <div class="w-dyn-list">
                                     <div role="list" class="careers-grid w-dyn-items">
                                         <div role="listitem" class="flex-item w-dyn-item"><a
-                                                data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d"
-                                                href="ai-research.html"
+                                                data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d" href="ai-research.html"
                                                 class="career-item w-inline-block">
                                                 <div>
                                                     <h3 class="display-4">AI Research Scientist</h3>
@@ -5685,8 +5535,7 @@
                                             </a></div>
                                         <div role="listitem" class="flex-item w-dyn-item"><a
                                                 data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d"
-                                                href="machine-learning.html"
-                                                class="career-item w-inline-block">
+                                                href="machine-learning.html" class="career-item w-inline-block">
                                                 <div>
                                                     <h3 class="display-4">Machine Learning Engineer</h3>
                                                     <div class="mg-top-3x-extra-small">
@@ -5744,8 +5593,7 @@
                                     <div role="list" class="careers-grid w-dyn-items">
                                         <div role="listitem" class="flex-item w-dyn-item"><a
                                                 data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d"
-                                                href="systems-engineer.html"
-                                                class="career-item w-inline-block">
+                                                href="systems-engineer.html" class="career-item w-inline-block">
                                                 <div>
                                                     <h3 class="display-4">System Engineer</h3>
                                                     <div class="mg-top-3x-extra-small">
@@ -5775,8 +5623,8 @@
                                                 </div>
                                             </a></div>
                                         <div role="listitem" class="flex-item w-dyn-item"><a
-                                                data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d"
-                                                href="mlops.html" class="career-item w-inline-block">
+                                                data-w-id="ecb2c9f1-3a1b-dc81-aa93-8b9dd40b8b3d" href="mlops.html"
+                                                class="career-item w-inline-block">
                                                 <div>
                                                     <h3 class="display-4">MLOps Engineer</h3>
                                                     <div class="mg-top-3x-extra-small">
@@ -5839,7 +5687,6 @@
 
 
         <!-- INVESTORS AND LOGOS -->
-         <!-- Fix: Logos -->
         <section class="section pd-top-0 overflow-hidden">
             <div class="w-layout-blockcontainer container-default w-container">
                 <div data-w-id="57c6d91a-ff5b-0c4b-0e98-f6574583d612" style="opacity: 0; filter: blur(8px);"
@@ -5854,9 +5701,9 @@
                         <div class="mg-top-4x-extra-small">
                             <div class="inner-container _566px center">
                                 <p>
-                                    Elevate Labs deploys internal resources to build proprietary 
-                                    assets with clear paths to monetization. 
-                                    We invite institutional partners and strategic investors to 
+                                    Elevate Labs deploys internal resources to build proprietary
+                                    assets with clear paths to monetization.
+                                    We invite institutional partners and strategic investors to
                                     participate in accelerating our most promising ideas
                                 </p>
                             </div>
@@ -5866,185 +5713,161 @@
                 <div class="mg-top-regular">
                     <div data-w-id="97dc1372-f411-c523-0bef-128c83baf08b" style="opacity: 0; filter: blur(8px);"
                         class="logo-strip-marquee-wrapper">
-                   
+
                         <div class="logo-strip-marquee marquee-scroll-item"
                             style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
-                            
-                            <img src="/img/golang.png"
-                                loading="lazy" width="125" height="33" alt="golang Logo"
+
+                            <img src="/img/golang.png" loading="lazy" width="125" height="33" alt="golang Logo"
                                 class="logo-strip-item">
 
-                            <img src="https://www.svgrepo.com/show/394021/aws.svg"
-                                loading="lazy" width="130" height="33" alt="aws Logo"
+                            <img src="https://www.svgrepo.com/show/394021/aws.svg" loading="lazy" width="130"
+                                height="33" alt="aws Logo" class="logo-strip-item">
+
+                            <img src="/img/postgresql.png" loading="lazy" width="110" height="33" alt="postgresql Logo"
                                 class="logo-strip-item">
 
-                            <img src="/img/postgresql.png"
-                                loading="lazy" width="110" height="33" alt="postgresql Logo"
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrxLzsTrhWMh8I9ph2E-42sYqrkcYcapZ1g&s"
+                                loading="lazy" width="110" height="33" alt="docker Logo" class="logo-strip-item">
+
+                            <img src="/img/rust-logo.png" loading="lazy" width="119" height="33" alt="rust logo"
                                 class="logo-strip-item">
 
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YSWJhvLruo4SDE8cTVzTrPBHYfAFrxuN0w&s"
-                                loading="lazy" width="110" height="33" alt="docker Logo"
-                                class="logo-strip-item">
-
-                            <img src="/img/rust-logo.png"
-                                loading="lazy" width="119" height="33" alt="rust logo"
-                                class="logo-strip-item">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png"
-                                loading="lazy" width="125" height="33" alt="python Logo"
-                                class="logo-strip-item">
-
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" 
-                                loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" loading="lazy"
+                                width="125" height="33" alt="python Logo" class="logo-strip-item">
 
                             <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
-                                loading="lazy" width="" height="" alt="google cloud logo"
-                                class="logo-strip-item">
+                                loading="lazy" width="" height="" alt="google cloud logo" class="logo-strip-item">
 
                             <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
-                                loading="lazy" width="121" height="33" alt="kubernetes Logo"
-                                class="logo-strip-item">
+                                loading="lazy" width="121" height="33" alt="kubernetes Logo" class="logo-strip-item">
 
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                        </div>
-                        
-                        <div class="logo-strip-marquee marquee-scroll-item"
-                            style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
-                            
-                            <img src="/img/golang.png"
-                                loading="lazy" width="125" height="33" alt="golang Logo"
-                                class="logo-strip-item">
-
-                            <img src="https://www.svgrepo.com/show/394021/aws.svg"
-                                loading="lazy" width="130" height="33" alt="aws Logo"
-                                class="logo-strip-item">
-
-                            <img src="/img/postgresql.png"
-                                loading="lazy" width="110" height="33" alt="postgresql Logo"
-                                class="logo-strip-item">
-
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YSWJhvLruo4SDE8cTVzTrPBHYfAFrxuN0w&s"
-                                loading="lazy" width="110" height="33" alt="docker Logo"
-                                class="logo-strip-item">
-
-                            <img src="/img/rust-logo.png"
-                                loading="lazy" width="119" height="33" alt="rust logo"
-                                class="logo-strip-item">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png"
-                                loading="lazy" width="125" height="33" alt="python Logo"
-                                class="logo-strip-item">
-
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" 
-                                loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-
-                            <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
-                                loading="lazy" width="" height="" alt="google cloud logo"
-                                class="logo-strip-item">
-
-                            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
-                                loading="lazy" width="121" height="33" alt="kubernetes Logo"
-                                class="logo-strip-item">
-
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969211.png" loading="lazy"
+                                width="121" height="33" alt="nvidia Logo" class="logo-strip-item">
                         </div>
 
                         <div class="logo-strip-marquee marquee-scroll-item"
                             style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
-                            
-                            <img src="/img/golang.png"
-                                loading="lazy" width="125" height="33" alt="golang Logo"
+
+                            <img src="/img/golang.png" loading="lazy" width="125" height="33" alt="golang Logo"
                                 class="logo-strip-item">
 
-                            <img src="https://www.svgrepo.com/show/394021/aws.svg"
-                                loading="lazy" width="130" height="33" alt="aws Logo"
+                            <img src="https://www.svgrepo.com/show/394021/aws.svg" loading="lazy" width="130"
+                                height="33" alt="aws Logo" class="logo-strip-item">
+
+                            <img src="/img/postgresql.png" loading="lazy" width="110" height="33" alt="postgresql Logo"
                                 class="logo-strip-item">
 
-                            <img src="/img/postgresql.png"
-                                loading="lazy" width="110" height="33" alt="postgresql Logo"
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrxLzsTrhWMh8I9ph2E-42sYqrkcYcapZ1g&s"
+                                loading="lazy" width="110" height="33" alt="docker Logo" class="logo-strip-item">
+
+                            <img src="/img/rust-logo.png" loading="lazy" width="119" height="33" alt="rust logo"
                                 class="logo-strip-item">
 
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YSWJhvLruo4SDE8cTVzTrPBHYfAFrxuN0w&s"
-                                loading="lazy" width="110" height="33" alt="docker Logo"
-                                class="logo-strip-item">
-
-                            <img src="/img/rust-logo.png"
-                                loading="lazy" width="119" height="33" alt="rust logo"
-                                class="logo-strip-item">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png"
-                                loading="lazy" width="125" height="33" alt="python Logo"
-                                class="logo-strip-item">
-
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" 
-                                loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" loading="lazy"
+                                width="125" height="33" alt="python Logo" class="logo-strip-item">
 
                             <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
-                                loading="lazy" width="" height="" alt="google cloud logo"
-                                class="logo-strip-item">
+                                loading="lazy" width="" height="" alt="google cloud logo" class="logo-strip-item">
 
                             <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
-                                loading="lazy" width="121" height="33" alt="kubernetes Logo"
-                                class="logo-strip-item">
+                                loading="lazy" width="121" height="33" alt="kubernetes Logo" class="logo-strip-item">
 
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969211.png" loading="lazy"
+                                width="121" height="33" alt="nvidia Logo" class="logo-strip-item">
                         </div>
 
                         <div class="logo-strip-marquee marquee-scroll-item"
                             style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
-                            
-                            <img src="/img/golang.png"
-                                loading="lazy" width="125" height="33" alt="golang Logo"
+
+                            <img src="/img/golang.png" loading="lazy" width="125" height="33" alt="golang Logo"
                                 class="logo-strip-item">
 
-                            <img src="https://www.svgrepo.com/show/394021/aws.svg"
-                                loading="lazy" width="130" height="33" alt="aws Logo"
+                            <img src="https://www.svgrepo.com/show/394021/aws.svg" loading="lazy" width="130"
+                                height="33" alt="aws Logo" class="logo-strip-item">
+
+                            <img src="/img/postgresql.png" loading="lazy" width="110" height="33" alt="postgresql Logo"
                                 class="logo-strip-item">
 
-                            <img src="/img/postgresql.png"
-                                loading="lazy" width="110" height="33" alt="postgresql Logo"
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrxLzsTrhWMh8I9ph2E-42sYqrkcYcapZ1g&s"
+                                loading="lazy" width="110" height="33" alt="docker Logo" class="logo-strip-item">
+
+                            <img src="/img/rust-logo.png" loading="lazy" width="119" height="33" alt="rust logo"
                                 class="logo-strip-item">
 
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3YSWJhvLruo4SDE8cTVzTrPBHYfAFrxuN0w&s"
-                                loading="lazy" width="110" height="33" alt="docker Logo"
-                                class="logo-strip-item">
-
-                            <img src="/img/rust-logo.png"
-                                loading="lazy" width="119" height="33" alt="rust logo"
-                                class="logo-strip-item">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png"
-                                loading="lazy" width="125" height="33" alt="python Logo"
-                                class="logo-strip-item">
-
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" 
-                                loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" loading="lazy"
+                                width="125" height="33" alt="python Logo" class="logo-strip-item">
 
                             <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
-                                loading="lazy" width="" height="" alt="google cloud logo"
-                                class="logo-strip-item">
+                                loading="lazy" width="" height="" alt="google cloud logo" class="logo-strip-item">
 
                             <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
-                                loading="lazy" width="121" height="33" alt="kubernetes Logo"
+                                loading="lazy" width="121" height="33" alt="kubernetes Logo" class="logo-strip-item">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969211.png" loading="lazy"
+                                width="121" height="33" alt="nvidia Logo" class="logo-strip-item">
+                        </div>
+
+                        <div class="logo-strip-marquee marquee-scroll-item"
+                            style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
+
+                            <img src="/img/golang.png" loading="lazy" width="125" height="33" alt="golang Logo"
                                 class="logo-strip-item">
 
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                                <img src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/68a7876a4098611a628c081a_linkora-logo-quantum-webflow-template.svg" loading="lazy" width="125" height="33" alt="Linkora Logo - Quantum | Webflow Template" class="logo-strip-item">
-                        </div>
-                        
-                        
+                            <img src="https://www.svgrepo.com/show/394021/aws.svg" loading="lazy" width="130"
+                                height="33" alt="aws Logo" class="logo-strip-item">
 
+                            <img src="/img/postgresql.png" loading="lazy" width="110" height="33" alt="postgresql Logo"
+                                class="logo-strip-item">
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrxLzsTrhWMh8I9ph2E-42sYqrkcYcapZ1g&s"
+                                loading="lazy" width="110" height="33" alt="docker Logo" class="logo-strip-item">
+
+                            <img src="/img/rust-logo.png" loading="lazy" width="119" height="33" alt="rust logo"
+                                class="logo-strip-item">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" loading="lazy"
+                                width="125" height="33" alt="python Logo" class="logo-strip-item">
+
+                            <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
+                                loading="lazy" width="" height="" alt="google cloud logo" class="logo-strip-item">
+
+                            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
+                                loading="lazy" width="121" height="33" alt="kubernetes Logo" class="logo-strip-item">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969211.png" loading="lazy"
+                                width="121" height="33" alt="nvidia Logo" class="logo-strip-item">
+                        </div>
+
+                        <div class="logo-strip-marquee marquee-scroll-item"
+                            style="translate: none; rotate: none; scale: none; transform: translate(-38.434%, 0%) translate3d(0px, 0px, 0px);">
+
+                            <img src="/img/golang.png" loading="lazy" width="125" height="33" alt="golang Logo"
+                                class="logo-strip-item">
+
+                            <img src="https://www.svgrepo.com/show/394021/aws.svg" loading="lazy" width="130"
+                                height="33" alt="aws Logo" class="logo-strip-item">
+
+                            <img src="/img/postgresql.png" loading="lazy" width="110" height="33" alt="postgresql Logo"
+                                class="logo-strip-item">
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrxLzsTrhWMh8I9ph2E-42sYqrkcYcapZ1g&s"
+                                loading="lazy" width="110" height="33" alt="docker Logo" class="logo-strip-item">
+
+                            <img src="/img/rust-logo.png" loading="lazy" width="119" height="33" alt="rust logo"
+                                class="logo-strip-item">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" loading="lazy"
+                                width="125" height="33" alt="python Logo" class="logo-strip-item">
+
+                            <img src="https://images.icon-icons.com/2389/PNG/512/google_cloud_logo_icon_145232.png"
+                                loading="lazy" width="" height="" alt="google cloud logo" class="logo-strip-item">
+
+                            <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/c4/logo-kubernetes-uxgozgr1ixdexu5hi6xemn.png/logo-kubernetes-tch2ydi2kec93chhjzm1r5.png?_a=DATAiZAAZAA0"
+                                loading="lazy" width="121" height="33" alt="kubernetes Logo" class="logo-strip-item">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/5969/5969211.png" loading="lazy"
+                                width="121" height="33" alt="nvidia Logo" class="logo-strip-item">
+                        </div>
 
                     </div>
                 </div>
@@ -6067,7 +5890,8 @@
                                 </div>
                             </div><a id="w-node-_99805214-dd54-e7f3-2549-05c0df1040fb-df1040fb"
                                 data-wf--primary-button--variant="base" data-w-id="99805214-dd54-e7f3-2549-05c0df1040fb"
-                                href="https://www.linkedin.com/company/elevatelabs-dev" target="_blank" class="primary-button w-inline-block">
+                                href="https://www.linkedin.com/company/elevatelabs-dev" target="_blank"
+                                class="primary-button w-inline-block">
                                 <div class="button-content">
                                     <div>Follow us</div>
                                     <div class="button-icon-wrapper primary"><svg xmlns="http://www.w3.org/2000/svg"
@@ -6093,7 +5917,7 @@
                 <div class="corner-gradient-container">
                     <div class="border-wrapper">
                         <div class="w-layout-grid social-media-grid">
-                            <a href="X.com/elevatelabs_dev" target="_blank"
+                            <a href="https://x.com/elevatelabs_dev" target="_blank"
                                 class="social-media-link w-inline-block"><svg xmlns="http://www.w3.org/2000/svg"
                                     width="24" viewBox="0 0 23 21" fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -6123,7 +5947,7 @@
                                 </svg>
                                 <div>Github</div>
                             </a>
-                        
+
                         </div>
                     </div>
                     <div data-wf--corner-gradient-outline--variant="small" class="corner-gradient-wrapper">
@@ -6155,231 +5979,13 @@
 
 
         <!-- FOOTER -->
-    <footer class="footer-wrapper">
-      <div data-w-id="f1ff1ac2-5ccd-56f8-612a-0570791caa19" class="footer-main-section">
-        <div class="corner-gradient-container">
-          <div class="footer-top">
-            <div class="footer-logo-wrapper"><a data-wf--logo-icon-link--variant="large"
-                data-w-id="87dfc950-060b-8c99-0112-a1812f935a28" href="index.html" aria-current="page"
-                class="logo-link w-inline-block w--current"><img
-                  src="img/Logo Icon White.png"
-                  loading="lazy" width="54" height="54" alt="elevatelabs logo"
-                  class="logo-icon w-variant-7662d6cb-8aa5-f783-c60a-07a613bd9733" /></a></div><a
-              data-w-id="f5edb239-6f3b-4fa3-4e45-ec1c35b87dcb"
-              href="careers.html" class="footer-button w-inline-block">
-              <div class="button-content footer">
-                <div>Join our team</div>
-              </div>
-              <div class="button-icon-wrapper footer primary"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                  viewBox="0 0 17 17" fill="none" class="squared-icon">
-                  <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor" stroke-width="1.5"
-                    stroke-linecap="square"></path>
-                </svg>
-                <div class="button-icon-bg"></div>
-                <div class="button-icon-bg-inside"></div>
-              </div>
-            </a>
-          </div>
-          <div class="corner-gradient-wrapper">
-            <div class="corner-gradient-horizontal bottom-left dark-mode"></div>
-            <div class="corner-gradient-horizontal bottom-right dark-mode"></div>
-          </div>
-        </div>
-        <div class="footer-middle">
-          <div class="w-layout-blockcontainer container-default w-container">
-            <div class="w-layout-grid footer-middle-content">
-              <div class="inner-container _355px _100-tablet">
-                <div class="display-6 medium text-titles-dm">
-                  Stay informed on our latest builds.
-                </div>
-                <div class="mg-top-8-px">
-                  <p class="text-color-neutral-400 mg-bottom-20px">
-                    Receive quarterly technical briefings on our internal ventures 
-                    and be the first to know about our R&D breakthroughs.
-                  </p>
-                </div>
-                <div data-w-id="db486e02-a33e-9172-e76a-16a224c3f369" class="form-block _465px w-form">
-                  <form id="wf-form-Footer-Form" name="wf-form-Footer-Form" data-name="Footer Form" method="get"
-                    data-wf-page-id="68a342b7066c56fa60eb3ba0"
-                    data-wf-element-id="db486e02-a33e-9172-e76a-16a224c3f36a">
-                    <div class="position-relative"><input class="input dark-mode w-input" maxlength="256" name="Email"
-                        data-name="Email" placeholder="Enter your email" type="email" id="Footer-Email" required="" />
-                      <div class="button-inside-input-wrapper dark-mode left-mbp"><input type="submit"
-                          data-wait="Please wait..." class="form-button inside-input dark-mode w-button"
-                          value="Subscribe" /></div>
-                    </div>
-                  </form>
-                  <div class="success-message-wrapper w-form-done">
-                    <div class="success-message-inside-input dark-mode"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="100%" viewBox="0 0 20 20" fill="none" class="squared-icon _14px">
-                        <path
-                          d="M7.20658 10.9311L9.24116 12.1209L12.7928 7.20696M1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 14.9706 14.9706 19 10 19C5.02944 19 1 14.9706 1 10Z"
-                          stroke="currentColor" stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg>
-                      <div>Thanks for subscribing to our newsletter!</div>
-                    </div>
-                  </div>
-                  <div class="error-message w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-layout-grid footer-pages-grid">
-                <div class="footer-pages-column"><a data-w-id="eb04a999-cb68-7556-6f97-7c9e7021aeb2" href="index.html"
-                    aria-current="page" class="footer-link w-inline-block w--current">
-                    <div class="footer-link-text">Home</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a><a data-w-id="c3fc597d-2bab-7e7f-6ad2-caefca4bb44c"
-                    href="about.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">About</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a><a data-w-id="75e75c7f-37b8-f6f8-2604-26950e94846f"
-                    href="contact.html"
-                    class="footer-link w-inline-block">
-                    <div class="footer-link-text">Contact</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a>
-                  
-                </div>
-
-                <div class="footer-pages-column">
-
-                  <a data-w-id="5ee8a266-93fc-e564-45e6-87434fded9dd"
-                    href="careers.html"
-                    class="footer-link last---left-column w-inline-block">
-                    <div class="footer-link-text">Careers</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a>
-                  
-                  <a data-w-id="0bf4dd62-f7b3-f655-3b63-d1a68d507b57"
-                    href="blog.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Blog</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a>
-                  
-                  <a data-w-id="0bf4dd62-f7b3-f655-3b63-d1a68d507b5d"
-                    href="blog-post-mindly.html"
-                    class="footer-link w-inline-block">
-                    <div class="footer-link-text">Blog post</div>
-                    <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                        viewBox="0 0 17 17" fill="none" class="squared-icon">
-                        <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
-                          stroke-width="1.5" stroke-linecap="square"></path>
-                      </svg></div>
-                    <div class="footer-link-bg"></div>
-                  </a>
-                
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="corner-gradient-container">
-          <div class="w-layout-grid footer-links-wrapper"><a data-w-id="08100fe2-7e2d-6e6c-ca53-e21c22c274f5"
-              href="mailto:hello@elevatelabs.dev" class="footer-contact-link w-inline-block">
-              <div class="footer-contact-link-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                  viewBox="0 0 24 24" fill="none" class="footer-contact-link-icon">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M0 2H24V4.31556L12.0001 10.861L0 4.31546V2ZM0 6.59364V22H24V6.59373L12.0001 13.1391L0 6.59364Z"
-                    fill="currentColor"></path>
-                </svg>
-                <div class="footer-contact-link-bg"></div>
-              </div>
-              <div>
-                <div class="text-color-neutral-500">Email address</div>
-                <div class="mg-top-5x-extra-small">
-                  <div class="medium text-titles-dm">hello@elevatelabs.dev</div>
-                </div>
-              </div>
-            </a>
-            
-            <a data-w-id="12a5a5ea-5225-5ae1-f20a-da153470d97b" href="https://www.intercom.com/" target="_blank"
-              class="footer-contact-link w-inline-block">
-              <div class="footer-contact-link-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                  viewBox="0 0 24 24" fill="none" class="footer-contact-link-icon">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M2 1H1V20H5.25V23.7944L6.77605 22.8505L11.3843 20H23V1H2ZM16 9.5H7V6.5H16V9.5ZM7 14.5H14V11.5H7V14.5Z"
-                    fill="currentColor"></path>
-                </svg>
-                <div class="footer-contact-link-bg"></div>
-              </div>
-              <div>
-                <div class="text-color-neutral-500">Live chat with us</div>
-                <div class="mg-top-5x-extra-small">
-                  <div class="medium text-titles-dm">Chat with us</div>
-                </div>
-              </div>
-            </a>
-            
-            <a data-w-id="7fe5019c-0d48-0b18-79a9-ab7251d22b0b" href="mailto:support@elevatelabs.dev"
-              class="footer-contact-link w-inline-block">
-              <div class="footer-contact-link-icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
-                  viewBox="0 0 24 24" fill="none" class="footer-contact-link-icon">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M1.375 12C1.375 6.13197 6.13197 1.375 12 1.375C17.868 1.375 22.625 6.13197 22.625 12C22.625 17.868 17.868 22.625 12 22.625C6.13197 22.625 1.375 17.868 1.375 12ZM12.8543 7.60707H11.0834V5.83623H12.8543V7.60707ZM11.1146 11.1146H9.34375V9.34375H12.8854V15.5417H14.6563V17.3125H9.34375V15.5417H11.1146V11.1146Z"
-                    fill="currentColor"></path>
-                </svg>
-                <div class="footer-contact-link-bg"></div>
-              </div>
-              <div>
-                <div class="text-color-neutral-500">Support</div>
-                <div class="mg-top-5x-extra-small">
-                  <div class="medium text-titles-dm">support@quantumlab.com</div>
-                </div>
-              </div>
-            </a></div>
-          <div class="corner-gradient-wrapper">
-            <div class="corner-gradient-horizontal bottom-left dark-mode"></div>
-            <div class="corner-gradient-horizontal bottom-right dark-mode"></div>
-            <div class="corner-gradient-horizontal top-left dark-mode"></div>
-            <div class="corner-gradient-horizontal top-right dark-mode"></div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-            <a href="contact.html" target="_blank"
-            class="link-square-icon-left---dark-mode w-inline-block">
-            <div>Do more with Elevatelabs.</div>
-          </a>
-          <p class="text-color-neutral-500">
-            <script>document.writeln(new Date().getFullYear())</script>
-            &copy; Elevatelabs. All Rights Reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+        <my-footer></my-footer>
 
     </div>
 
-    
+
     <!-- JS FILES -->
 
-    <script src="js/footer.js"></script>
-    <script src="js/navbar.js"></script>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68a342b7066c56fa60eb3af1"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
@@ -6389,6 +5995,8 @@
         type="text/javascript"></script>
     <script src="https://cdn.prod.website-files.com/68a342b7066c56fa60eb3af1/js/webflow.2d208046.d659259bff6efdc7.js"
         type="text/javascript"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/navbar.js"></script>
     <script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script>
     <script src="https://cdn.prod.website-files.com/gsap/3.14.2/Observer.min.js" type="text/javascript"></script>
     <script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script>

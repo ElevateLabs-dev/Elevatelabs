@@ -345,7 +345,7 @@ pre.w-code-block code {
 }
 
 .w-webflow-badge {
-  /* white-space: nowrap;
+  white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
   visibility: visible !important;
@@ -365,15 +365,15 @@ pre.w-code-block code {
   display: inline-block !important;
   position: fixed !important;
   inset: auto 12px 12px auto !important;
-  transform: none !important; */
+  transform: none !important;
 }
 
 .w-webflow-badge > img {
-  /* position: unset;
+  position: unset;
   visibility: unset !important;
   opacity: 1 !important;
   vertical-align: middle !important;
-  display: inline-block !important; */
+  display: inline-block !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2343,7 +2343,7 @@ img {
 }
 
 .logo-strip-marquee img{
-  width: 70px;
+  width: 50px;
 }
 
 label {
