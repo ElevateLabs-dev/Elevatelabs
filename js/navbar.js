@@ -61,7 +61,7 @@ class myHeader extends HTMLElement {
                   <div class="link-text">About</div>
                 </a></li>
               <li class="link-nav-item sibling-blur-item"><a data-w-id="d68dfc82-2126-abb3-f232-3ceb101d5a7c"
-                  href="blog.html" class="link w-inline-block">
+                  href="resources.html" class="link w-inline-block">
                   <div class="link-icon-wrapper">
                     <div class="link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 17 17"
                         fill="none" class="squared-icon">
@@ -69,7 +69,7 @@ class myHeader extends HTMLElement {
                           stroke-width="1.5" stroke-linecap="square"></path>
                       </svg></div>
                   </div>
-                  <div class="link-text">Blog</div>
+                  <div class="link-text">Resources</div>
                 </a>
               </li>
 

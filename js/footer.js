@@ -143,8 +143,8 @@ class myFooter extends HTMLElement {
                   </a>
                   
                   <a data-w-id="0bf4dd62-f7b3-f655-3b63-d1a68d507b57"
-                    href="blog.html" class="footer-link w-inline-block">
-                    <div class="footer-link-text">Blog</div>
+                    href="resources.html" class="footer-link w-inline-block">
+                    <div class="footer-link-text">Resources</div>
                     <div class="footer-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%"
                         viewBox="0 0 17 17" fill="none" class="squared-icon">
                         <path d="M6.25391 3.45312L10.7458 8.01563L6.25391 12.5781" stroke="currentColor"
