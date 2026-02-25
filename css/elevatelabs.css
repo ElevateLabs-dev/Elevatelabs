@@ -7202,19 +7202,17 @@ figure {
 
 .contact-card-v1-content {
   padding: var(--_spacers---main-spacers--2x-extra-large) var(--_spacers---main-spacers--regular) var(--_spacers---main-spacers--small);
-  grid-column-gap: var(--_spacers---main-spacers--2x-extra-large);
-  grid-row-gap: var(--_spacers---main-spacers--2x-extra-large);
+  column-gap: var(--_spacers---main-spacers--2x-extra-large);
+  row-gap: var(--_spacers---main-spacers--2x-extra-large);
   flex-flow: column;
   flex: 1;
   justify-content: space-between;
-  display: flex;
 }
 
 .contact-card-v1-image {
   width: 85%;
   max-width: 228px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 3rem;
   display: block;
 }
 
