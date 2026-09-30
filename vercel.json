@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://elevatelabs-redirect-page.vercel.app/",
-      "permanent": false
-    }
-  ]
-}
